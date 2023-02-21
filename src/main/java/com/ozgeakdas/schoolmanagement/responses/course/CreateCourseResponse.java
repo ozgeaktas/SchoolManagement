@@ -1,4 +1,4 @@
-package com.ozgeakdas.schoolmanagement.responses;
+package com.ozgeakdas.schoolmanagement.responses.course;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
