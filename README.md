@@ -13,10 +13,11 @@ Spring Boot project for Enoca
 <li>Student: id,name,age</li>
 <li>Course: id,name</li>
 <h1>Technology Stacks: </h1>
+
 <li> Spring Data JPA(Data Persistance) </li>
 <li>MapStruct(Mapper) </li>
 <li>Java 17(programming language) </li>
-<li>İntellij idea(ide)<li>
+<li>İntellij idea(ide)</li>
 <li>Spring Boot(Application platform)</li>
 <li> Hibernate(ORM)</li>
 <li>Lombok</li>
@@ -29,6 +30,7 @@ Spring Boot project for Enoca
 ![Ekran Görüntüsü (874)](https://user-images.githubusercontent.com/54955167/220481114-8cda8f5c-7c7c-4f8d-8ea5-507322a52b64.png)
 
 <h1> Installation </h1>
+git clone https://github.com/ozgeaktas/SchoolManagement.git
 
 <h1>H2 Database </h1>
 
