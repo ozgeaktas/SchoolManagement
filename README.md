@@ -1,7 +1,5 @@
-# SchoolManagement
-Spring Boot project for Enoca
-
 <h3>School Management</h3>
+Spring Boot project for Enoca
 <h1>Spring Project -Goals </h1>
 <li>Identifying Resources</li>
 <li>Identifying Actions(GET,POST,PUT,DELETE)</li>
@@ -31,7 +29,7 @@ Spring Boot project for Enoca
 ![Ekran Görüntüsü (874)](https://user-images.githubusercontent.com/54955167/220481114-8cda8f5c-7c7c-4f8d-8ea5-507322a52b64.png)
 
 <h1> Installation </h1>
-k
+
 <h1>H2 Database </h1>
 
 ![Ekran Görüntüsü (871)](https://user-images.githubusercontent.com/54955167/220480116-e1d7def4-553b-4828-aa15-4161e688d941.png)
