@@ -42,7 +42,7 @@ public class StudentController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(code = org.springframework.http.HttpStatus.NO_CONTENT)
+    //@ResponseStatus(code = org.springframework.http.HttpStatus.NO_CONTENT)
     public void delete(@PathVariable int id) {
         studentService.delete(id);
     }

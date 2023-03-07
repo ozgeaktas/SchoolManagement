@@ -1,5 +1,6 @@
 package com.ozgeakdas.schoolmanagement.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -20,6 +21,7 @@ public class Student {
     @Size(min=2,message="Enter at least 2 character ")
     private String name;
     private int age;
+    @JsonManagedReference
     @OneToMany(mappedBy = "student", cascade = CascadeType.DETACH)
     private List<Course> courses = new ArrayList<>();
 }

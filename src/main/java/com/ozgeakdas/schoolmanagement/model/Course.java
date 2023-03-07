@@ -1,5 +1,6 @@
 package com.ozgeakdas.schoolmanagement.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,6 +15,7 @@ public class Course {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
     private String name;
+    @JsonBackReference
     @ManyToOne(cascade = CascadeType.DETACH)
     @JoinColumn(name = "student_id",referencedColumnName = "id")
     private Student student;

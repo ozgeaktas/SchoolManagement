@@ -27,7 +27,8 @@ public class StudentService {
 
 
     public Student getById(int id) {
-        return studentRepository.findById(id).orElse(null);
+
+        return studentRepository.findById(id).orElseThrow();
     }
 
 
